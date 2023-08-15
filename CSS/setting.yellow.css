@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/*fonts*/
+@font-face {
+  font-family: english;
+  src: url(../fonts/english/AnyConv.com__BAUHS93.woff);
+  src: url(../fonts/english/AnyConv.com__BAUHS93.woff2);
+  src: url(../fonts/english/BAUHS93.TTF);
+}
+@font-face {
+  font-family: sans_light;
+  src: url(../fonts/farsi/IRANSansX-Light.woff);
+  src: url(../fonts/farsi/IRANSansX-Light.woff2);
+}
+@font-face {
+  font-family: sans_regular;
+  src: url(../fonts/farsi/IRANSansX-Regular.woff);
+  src: url(../fonts/farsi/IRANSansX-Regular.woff2);
+}
+@font-face {
+  font-family: sans_medium;
+  src: url(../fonts/farsi/IRANSansX-Medium.woff);
+  src: url(../fonts/farsi/IRANSansX-Medium.woff2);
+}
+@font-face {
+  font-family: sans_bold;
+  src: url(../fonts/farsi/IRANSansX-Bold.woff);
+  src: url(../fonts/farsi/IRANSansX-Bold.woff2);
+}
+@font-face {
+  font-family: sans_xbold;
+  src: url(../fonts/farsi/IRANSansX-ExtraBold.woff);
+  src: url(../fonts/farsi/IRANSansX-ExtraBold.woff2);
+}
+@font-face {
+  font-family: sans_black;
+  src: url(../fonts/farsi/IRANSansX-Black.woff);
+  src: url(../fonts/farsi/IRANSansX-Black.woff2);
+}
+
+/*dotted background of body*/
+body {
+  background: #111111 fixed;
+  background-image: radial-gradient(
+    rgba(128, 128, 128, 0.596) 1px,
+    transparent 0
+  );
+  background-size: 30px 30px;
+}
+:root {
+  --ycolor: #ffb400;
+}
+/*scroll bar*/
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 250px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+  border-radius: 250px;
+} /* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 250px;
+} /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ycolor);
+}
+/*  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10000px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: px solid rgba(255, 255, 255, 0.64);
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  transform: translate(150%);*/
